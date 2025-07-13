@@ -1,5 +1,26 @@
-/* h1要素に適用するスタイル */
+/* h1要素を文字サイズ32px、文字色を白色、背景色をmidnightblueにし、文字の横方向の配置を中央にしてください。*/
+h1 {
+  font-size:32px;
+  color:white;
+  background-color:midnightblue;
+  text-align:center;
+}
 
-/* h3要素に適用するスタイル */
+/* h3要素を文字色を白色、背景色をdeepskyblueにしてください。また高さを50pxで、文字が上下左右共に中央に配置されるようにスタイルを適用してください。ここでは、HTMLファイルの編集も必要になります。 */
+div {
+  height:50px;
+}
 
-/* p要素に適用するスタイル */
+h3 {
+  color:white;
+  background-color:deepskyblue;
+  text-align:center;
+  line-height:50px;
+}
+
+/* p要素を文字色を白色、背景色を#3776AB、文字の横方向の配置を中央にしてください。 */
+p{
+  color:white;
+  background-color:#3776AB;
+  text-align:center;
+}
