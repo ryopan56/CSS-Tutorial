@@ -1,1 +1,39 @@
-/* p要素に適用するスタイル */
+/* すべてのp要素をサイズを変更できるインラインブロックにしてください。
+
+すべてのp要素の背景色を#00008B、文字色を白色にしてください。
+
+すべてのp要素の幅を160pxにし、各要素の文字が左右方向で中央になるようにしてください。
+
+すべてのp要素にpaddingを上下にのみ10pxずつ追加してください。
+
+すべてのp要素にmarginを右にだけ20px追加してください。
+
+すべてのp要素に以下の内容でborderを適用してください。
+
+色	線の太さ	線の種類
+上	黄色	5px	点線
+右	黄色	10px	ridge
+下	赤色	10px	ridge
+左	黄色	5px	実線 */
+
+p {
+  display:inline-block;
+  background-color:#00008B;
+  color:white;
+  width:160px;
+  text-align:center;
+  padding:10px 0px;
+  margin:0px 20px 0px 0px;
+  border-top-color:yellow;
+  border-top-width:5px;
+  border-top-style:dotted;
+  border-right-color:yellow;
+  border-right-width:10px;
+  border-right-style:ridge;
+  border-bottom-color:red;
+  border-bottom-width:10px;
+  border-bottom-style:ridge;
+  border-left-color:yellow;
+  border-left-width:5px;
+  border-left-style:solid;
+}
