@@ -1,3 +1,9 @@
+.container {
+  display:grid;
+  grid-template-rows:100px 100px 100px 100px;
+  grid-template-columns:100px 100px 100px;
+}
+
 div > div {
   text-align: center;
 }
@@ -27,6 +33,22 @@ div > div {
 }
 
 
-/* containerクラスのdiv要素にスタイルを適用 */
+/* containerクラスのdiv要素にグリッドレイアウトで、100px×100pxのトラックを4行×3列定義してください。 */
 
-/* item〇クラスにスタイルを適用 */
+/* アイテムを以下の配置になるよう、必要なitem〇クラスにスタイルを適用してください。 */
+.item2{
+  grid-row: span  2;
+}
+
+.item3{
+  grid-row: 3 / 5;
+}
+
+.item5{
+  grid-column: 3;
+}
+
+.item6{
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+}
