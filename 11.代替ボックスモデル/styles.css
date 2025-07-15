@@ -40,13 +40,20 @@ div {
   margin: 10px;
   background-color: #EAD7A4;
   text-align: center;
+  box-sizing:bodre-box;
+  width:320px;
+  height:360px;
+  border:1px solid #800000;
+  display:inline-block;
 }
 
 img {
   margin: 10px 0;
+  height:300px;
+  width:300px;
 }
 
 
-/* img要素にスタイルを適用 */
+/* すべてのimg要素の幅と高さを300pxにしてください。 */
 
-/* div要素にスタイルを適用 */
+/* div要素のボックスサイズを幅320px・高さ360pxとし、borderを1px・実線・#800000で指定してください。また3つのdiv要素を横並びにしたいので、インラインボックスにしてください。 */
