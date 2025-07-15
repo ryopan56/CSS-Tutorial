@@ -10,6 +10,11 @@ button {
   background-color: #FFFFE0
 }
 
+button:hover{
+  background-color:#FFFFA8;
+  width:52px;
+}
+
 input {
   height: 24px;
   outline: gray solid 1px;
@@ -18,7 +23,12 @@ input {
   border: none;
 }
 
+input:focus{
+  background-color:#CCFFCC;
+  outline-color:green;
+}
 
-/* input要素に疑似クラスfocusのスタイルを適用 */
 
-/* button要素に疑似クラスhoverのスタイルを適用 */
+/* 入力欄をクリックした時に、背景色が#CCFFCC、枠線色が緑色になるようにしてください。 */
+
+/* 送信ボタンにカーソルを置いた時に、背景色が#FFFFA8、幅が52pxになるようにしてください。 */
