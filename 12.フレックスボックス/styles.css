@@ -6,11 +6,25 @@
 body {
   max-width: 1040px;
   margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:50px;
 }
 
 header {
   width: 100%;
   margin-top: 20px;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+  justify-content:space-between
+}
+
+ul {
+  display:flex;
+  flex-direction:row;
+  gap:24px;
 }
 
 li {
@@ -24,11 +38,19 @@ a {
 
 main {
   flex-wrap: wrap;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:10px;
 }
 
 div {
   background-color: darkblue;
   color: white;
+  width:200px;
+  height:200px;
+  text-align:center;
+  line-height:200px;
 }
 
 footer {
@@ -36,12 +58,12 @@ footer {
 }
 
 
-/* body要素にスタイルを適用 */
+/* body要素にあるheader、main、footer要素を中央揃えの縦並びにし、各要素の隙間を50pxにしてください。 */
 
-/* header要素にスタイルを適用 */
+/* header要素にあるh1、ul要素を下端揃えの横並びにし、各要素が左右の端に配置されるようにしてください。 */
 
-/* ul要素にスタイルを適用 */
+/* ul要素にあるli要素を横並びにし、各要素の隙間を24pxにしてください。 */
 
-/* div要素にスタイルを適用 */
+/* div要素の幅と高さを200pxにし、テキストが中央揃えになるようにtext-align、line-heightプロパティを指定してください。 */
 
-/* main要素にスタイルを適用 */
+/* main要素にあるdiv要素を横並びにし、各要素の隙間を10pxにしてください。 */
