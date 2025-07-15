@@ -7,6 +7,9 @@ header {
   text-align: center;
   background-color: darkblue;
   color: white;
+  position:sticky;
+  top:0;
+  opacity:0.9;
 }
 
 main {
@@ -28,6 +31,9 @@ main {
 
 img {
   margin-top: 24px;
+  width:200px;
+  height:200px;
+  object-fit:cover;
 }
 
 footer {
@@ -37,6 +43,8 @@ footer {
 }
 
 
-/* img要素にスタイルを適用 */
+/* すべてのimg要素の幅と高さを200pxにし、画像が縦横比は維持したまま高さ方向がすべて表示されるようにスタイルを適用してください。 */
 
-/* header要素にスタイルを適用 */
+/* header要素が上端に常に表示されるようにpositionプロパティなどを適用してください。*/
+
+/* main要素がheader要素を通過する時に少しだけ透けて見えるようにしたいです。必要な要素にopacityプロパティを0.9で指定してください。*/
