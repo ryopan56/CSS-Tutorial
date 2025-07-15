@@ -9,6 +9,7 @@ header {
   background-color: #192F60;
   color: white;
   margin-top: 10px;
+  border-radius:20px 20px 0px 0px;
 }
 
 h1, h3 {
@@ -21,6 +22,7 @@ div {
   display: flex;
   background-color: #FAC559;
   height: 160px;
+  border-radius:0px 0px 20px 20px;
 }
 
 ul {
@@ -34,17 +36,20 @@ li {
   width: 244px;
   padding: 2px 8px 2px 2px;
   margin: 4px 10px 4px 0;
+  border:#192F60 1px solid;
+  border-radius:8px;
 }
 
 main {
-  width: auto;
+  width:auto;
+  overflow:auto;
 }
 
 
-/* li要素にスタイルを適用 */
+/* すべてのli要素に色#192F60、太さ1px、実線の境界線を追加し、半径8pxですべての角を丸めてください。 */
 
-/* header要素にスタイルを適用 */
+/* header要素の上部2ヶ所の角を半径20pxで丸めてください。 */
 
-/* div要素にスタイルを適用 */
+/* div要素の下部2ヶ所の角を半径20pxで丸めてください。 */
 
-/* main要素内にスタイルを適用 */
+/* main要素にあるp要素の中身がはみ出てしまっていますね。スクロールバーを追加して全文を読めるようにしてください。 */
