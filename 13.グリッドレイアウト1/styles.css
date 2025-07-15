@@ -2,6 +2,10 @@
   width: 1200px;
   margin: auto;
   background-color: cadetblue;
+  display:grid;
+  grid-template-rows:100px 100px 100px;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:10px 150px;
 }
 
 div div {
@@ -11,10 +15,10 @@ div div {
 }
 
 
-/* 1. containerクラスにスタイルを適用 */
+/* 1. containerクラスのdiv要素にグリッドレイアウトで、高さが100pxで3行、幅が1：1：1の3列になるようにトラックを定義してください。 */
 
-/* 2. containerクラスにスタイルを適用 */
+/* 2. containerクラスのdiv要素にグリッドレイアウトで、高さが100pxで3行、幅が100pxで3列になるようにトラックを定義し、横方向の各アイテムの隙間と両サイドの隙間が同じになるように配置してください。 */
 
-/* 3. containerクラスにスタイルを適用 */
+/* 3. containerクラスのdiv要素にグリッドレイアウトで、高さが100pxで3行、幅が1：1：1の3列になるようにトラックを定義し、各アイテムが各トラックの下側になるように配置してください。 */
 
-/* 4. containerクラスにスタイルを適用 */
+/* 4. containerクラスのdiv要素にグリッドレイアウトで、高さが100pxで3行、幅が1：1：1の3列になるようにトラックを定義し、トラック間の線が横線は10px、縦線は150pxになるように配置してください。 */
